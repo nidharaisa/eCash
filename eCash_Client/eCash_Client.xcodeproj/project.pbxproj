@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8310D88323FE41AF00FF976C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8310D88223FE41AF00FF976C /* main.cpp */; };
+		8310D88B23FE41D700FF976C /* eCashDTO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8310D88923FE41D700FF976C /* eCashDTO.cpp */; };
+		8310D88E23FE41F800FF976C /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8310D88C23FE41F800FF976C /* Client.cpp */; };
+		8310D89123FE422500FF976C /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8310D89023FE422500FF976C /* Thread.cpp */; };
+		834B722323FF600100AB377E /* RSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834B722223FF600100AB377E /* RSA.cpp */; };
+		834B72422400F29000AB377E /* ReqBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834B72402400F29000AB377E /* ReqBuilder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8310D87D23FE41AF00FF976C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8310D87F23FE41AF00FF976C /* eCash_Client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eCash_Client; sourceTree = BUILT_PRODUCTS_DIR; };
+		8310D88223FE41AF00FF976C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8310D88923FE41D700FF976C /* eCashDTO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = eCashDTO.cpp; sourceTree = "<group>"; };
+		8310D88A23FE41D700FF976C /* eCashDTO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = eCashDTO.hpp; sourceTree = "<group>"; };
+		8310D88C23FE41F800FF976C /* Client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		8310D88D23FE41F800FF976C /* Client.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Client.hpp; sourceTree = "<group>"; };
+		8310D88F23FE422500FF976C /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		8310D89023FE422500FF976C /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		834B722123FF600100AB377E /* RSA.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RSA.hpp; sourceTree = "<group>"; };
+		834B722223FF600100AB377E /* RSA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RSA.cpp; sourceTree = "<group>"; };
+		834B72402400F29000AB377E /* ReqBuilder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReqBuilder.cpp; sourceTree = "<group>"; };
+		834B72412400F29000AB377E /* ReqBuilder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReqBuilder.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8310D87C23FE41AF00FF976C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8310D87623FE41AF00FF976C = {
+			isa = PBXGroup;
+			children = (
+				8310D88123FE41AF00FF976C /* eCash_Client */,
+				8310D88023FE41AF00FF976C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8310D88023FE41AF00FF976C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8310D87F23FE41AF00FF976C /* eCash_Client */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8310D88123FE41AF00FF976C /* eCash_Client */ = {
+			isa = PBXGroup;
+			children = (
+				834B722223FF600100AB377E /* RSA.cpp */,
+				834B722123FF600100AB377E /* RSA.hpp */,
+				8310D89023FE422500FF976C /* Thread.cpp */,
+				8310D88F23FE422500FF976C /* Thread.h */,
+				8310D88923FE41D700FF976C /* eCashDTO.cpp */,
+				8310D88A23FE41D700FF976C /* eCashDTO.hpp */,
+				8310D88223FE41AF00FF976C /* main.cpp */,
+				8310D88C23FE41F800FF976C /* Client.cpp */,
+				8310D88D23FE41F800FF976C /* Client.hpp */,
+				834B72402400F29000AB377E /* ReqBuilder.cpp */,
+				834B72412400F29000AB377E /* ReqBuilder.hpp */,
+			);
+			path = eCash_Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8310D87E23FE41AF00FF976C /* eCash_Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8310D88623FE41AF00FF976C /* Build configuration list for PBXNativeTarget "eCash_Client" */;
+			buildPhases = (
+				8310D87B23FE41AF00FF976C /* Sources */,
+				8310D87C23FE41AF00FF976C /* Frameworks */,
+				8310D87D23FE41AF00FF976C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eCash_Client;
+			productName = eCash_Client;
+			productReference = 8310D87F23FE41AF00FF976C /* eCash_Client */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8310D87723FE41AF00FF976C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Raisa Islam";
+				TargetAttributes = {
+					8310D87E23FE41AF00FF976C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8310D87A23FE41AF00FF976C /* Build configuration list for PBXProject "eCash_Client" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8310D87623FE41AF00FF976C;
+			productRefGroup = 8310D88023FE41AF00FF976C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8310D87E23FE41AF00FF976C /* eCash_Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8310D87B23FE41AF00FF976C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8310D88B23FE41D700FF976C /* eCashDTO.cpp in Sources */,
+				834B722323FF600100AB377E /* RSA.cpp in Sources */,
+				834B72422400F29000AB377E /* ReqBuilder.cpp in Sources */,
+				8310D88323FE41AF00FF976C /* main.cpp in Sources */,
+				8310D88E23FE41F800FF976C /* Client.cpp in Sources */,
+				8310D89123FE422500FF976C /* Thread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8310D88423FE41AF00FF976C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8310D88523FE41AF00FF976C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8310D88723FE41AF00FF976C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8310D88823FE41AF00FF976C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8310D87A23FE41AF00FF976C /* Build configuration list for PBXProject "eCash_Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8310D88423FE41AF00FF976C /* Debug */,
+				8310D88523FE41AF00FF976C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8310D88623FE41AF00FF976C /* Build configuration list for PBXNativeTarget "eCash_Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8310D88723FE41AF00FF976C /* Debug */,
+				8310D88823FE41AF00FF976C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8310D87723FE41AF00FF976C /* Project object */;
+}
